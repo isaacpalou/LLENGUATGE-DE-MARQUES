@@ -1,0 +1,19 @@
+header {
+  height: 100px;
+  width: auto;
+  border: 4px red solid;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+}
+footer {
+  background-color: gray;
+  border: 10px solid #f3e5f5;
+  padding: 8px;
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 60px;
+}

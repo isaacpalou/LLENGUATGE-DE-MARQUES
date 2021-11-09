@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+}
+
+#principio{
+    padding: 10px;
+}
+.titulo{
+    font-family: fantasy;
+}
+
+/* ENCAPÇALAMENT DE LA PÀGINA */
+header{
+    background-color: rgb(56, 56, 56);
+    border: #000 5px solid;
+    border-radius: 10px;
+}
+header img{
+    width: 150px;
+    margin-left: 50px;
+}
+header li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+header li:hover a{
+    color: black;
+
+}
+.enlaces{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.link{
+    text-decoration: none;
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* CONTINGUT DE LA PÀGINA */
+main{
+    background:rgb(153, 153, 153);
+}
+/* LLISTA PASTA LLARGA */
+
+#large{
+    border: #000 5px solid;
+    padding: 10px;
+    background-color: #fcfcfc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.large-list{
+    margin-left: 30px;
+}
+.large-list li{
+    padding: 5px;
+}
+/* LLISTA PASTA CURTA */
+#short{
+    border: #000 5px solid;
+    border-top: 0;
+    padding: 10px;
+    background-color: #fcfcfc;
+}
+.short-list{
+    margin-left: 30px;
+}
+.short-list li{
+    padding: 5px;
+}
+
+/* LLISTA PASTA RELLENA */
+#rellena{
+    border: #000 5px solid;
+    border-top: 0;
+    padding: 10px;
+    background-color: #fcfcfc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.rellena-list{
+    margin-left: 30px;
+}
+.rellena-list li{
+    padding: 5px;
+}
+
+/* LASAGNE*/
+.lasagne{
+    float: right;
+}
+.lasagne h1{
+    margin-top: 50px;
+    margin-right: 50px;  
+    font-family: fantasy;  
+    text-align: center;
+}
+/* TAULES */
+.lasagne-table{
+    border: #000 solid 2px;
+    border-radius: 10px;
+    width: 50%;
+}
+.lasagne-table th, td{
+    width: 20%;
+    text-align: left;
+    border-collapse: collapse;
+}
+.bechamel-table{
+    border: #000 solid 2px;
+    border-radius: 10px;
+    width: 50%;
+}
+.bechamel-table th, td{
+    width: 20%;
+    text-align: left;
+    border-collapse: collapse;
+}
+/* PREPARACIÓN */
+#preparacion{
+    border-top: #000 2px solid;
+    padding: 20px;
+}
+video{
+    width: 400px;
+    height: 400px;
+}
