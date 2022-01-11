@@ -14,3 +14,19 @@ td{
     padding-right: 150px;
 }
 
+/* EJERCICI 2 */
+
+.ejercici2{
+    display: flex;
+    border: 2px solid red;
+    flex-direction: column;
+}
+
+.element1{
+    font-size: 3em;
+    background-color: blue;
+}
+.element2{
+    font-size: 2em;
+    background-color: green;
+}
