@@ -1,0 +1,16 @@
+/* TAULA DE L'EJERCICI 1 */
+
+.ejercici1{
+    border: 3px solid gray;
+    background-color:  blanchedalmond;
+}
+
+.tabla{
+    border: 3px solid red;
+    margin-left: 40%;
+}
+td{
+    border: 3px solid red;
+    padding-right: 150px;
+}
+
