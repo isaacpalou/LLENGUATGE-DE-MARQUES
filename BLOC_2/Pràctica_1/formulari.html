@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <header>
+        <div><a class="logo" href="home.html"><img src="pics/vecinos.png" alt="logo Historia" width="220" height="150" class="responsive"></a></div>
+    </header>
+    <main>
+        <form action="mailto: alapinilopez@cifpfbmoll.eu" method="post">
+            <label for="fname">Nombre completo:</label>
+            <input type="text" maxlength="30"><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" name="pass" id="pass" pattern="[A-Za-z0-9!?-]{8,12} required"><br>
+            <label for="eyes">Color de sus ojos:</label>
+            <input type="color" name="eyes" id="eyes"><br>
+            <label for="gender">Sexo: </label>
+            <input type="radio" name="Macho" id="Macho" value="m"> Hombre
+            <input type="radio" name="Hembra" id="Hembra" value="h"> Mujer <br>
+            <label for="number">Edad:</label>
+            <input type="number" name="age" id="age" min="16" max="99"> <br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="" id="" placeholder="_palougijon@cifpfbmoll.eu"><br>
+            <fieldset>
+                <label for="">Seleccione pasatiempos: </label>
+                <input type="checkbox" name="cant" id="cant">Canto coral
+                <input type="checkbox" name="sevillanas" id="sevillanas">Sevillanas
+                <input type="checkbox" name="ajedrez" id="ajedrez">Ajedrez
+                <input type="checkbox" name="aikido" id="aikido">Aikido
+                <input type="checkbox" name="cocina" id="cocina">Cocina<br>
+            </fieldset>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>ASOCIACIÓN VECINOS SA POBLA</h3>
+            <p>09/01/2022</p>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2022 designed by <span>Isaac Palou</span></p>
+        </div>
+    </footer>
+</body>
+</html>
