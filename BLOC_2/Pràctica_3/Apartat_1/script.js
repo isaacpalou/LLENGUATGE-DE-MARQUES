@@ -137,7 +137,7 @@ function funcion9() {
             break;
 
         default:
-            texto = "Haz introducido un valor erróneo, vuelva a intentarlo.";
+            texto = "HaS introducido un valor erróneo, vuelva a intentarlo.";
             break;
     }
 
@@ -173,5 +173,13 @@ function funcion10() {
     
         document.write(texto)
         document.write(".<br>")
+    }
+}
+
+function funcion11(){
+    var counter = 1
+    while (counter < 101) {
+        window.alert(counter)
+        counter += 1
     }
 }
