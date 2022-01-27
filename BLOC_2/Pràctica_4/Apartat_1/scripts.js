@@ -1,4 +1,4 @@
-function ejercicio1(){
+function ejercicio1() {
     const title = document.getElementsByTagName("h2");
     const paragraph = document.getElementsByTagName("p");
 
