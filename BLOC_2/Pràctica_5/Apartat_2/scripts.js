@@ -1,3 +1,9 @@
 function cambiar_section(){
-    alert("holamundo")
+    var seccion = document.getElementsByClassName("seccion1")
+    console.log(seccion)
+    
+    seccion.classListreplace("seccion1", "format")
+}
+function alerta(){
+    alert("chupame la polla")
 }
